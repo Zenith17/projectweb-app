@@ -1,0 +1,78 @@
+
+.section-1 {
+    background: url(../../img/bg-blue.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 500ms;
+}
+
+nav {
+    margin-right: 70px;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    padding: 10px 1px;
+    transition: 200ms;
+}
+
+.active {
+    border-color: #00b3ff;
+}
+
+nav a:hover {
+    border-color: #00b3ff;
+}
+
+.logo {
+    flex: 1;
+    font-family: 35px;
+    font-family: sans-serif;
+    margin-left: 70px;
+    color: #fff;
+}
+
+.bgc {
+    background: #eee;
+    padding: 10px;
+}
+
+.bgc .logo {
+    font-size: 30px;
+    color: #000;
+}
+
+.bgc nav a {
+    color: #222;
+}
+
+
+@media (max-width: 769px) { 
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav {
+        padding: 15px;
+        margin: 0px;
+    }
+}

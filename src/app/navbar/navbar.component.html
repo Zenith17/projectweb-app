@@ -1,1 +1,35 @@
-<p>navbar works!</p>
+<!-- <html>
+<head> -->
+<!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" -->
+    <!-- integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+<!-- </head> -->
+<!-- <body> -->
+<section class="section-1">
+    <header class="bgc">
+        <h2 class="logo">LOGO</h2>
+        <nav>
+            <a href="#" class="active">Inicio</a>
+            <a href="#soluciones">Soluciones</a>
+            <a href="#talleres">Talleres</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Testimonios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+</section>
+
+<script>
+    $(document).ready(function () {
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $("header").addClass("bgc");
+            } else {
+                $("header").removeClass("bgc");
+            }
+        });
+    });
+</script>
+
+<!-- </body>
+</html> -->
