@@ -4,11 +4,12 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import * as $ from 'jquery';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, SlickCarouselModule],
+  imports: [CommonModule, RouterOutlet, NavbarComponent, SlickCarouselModule, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

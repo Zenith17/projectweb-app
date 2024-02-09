@@ -1,23 +1,25 @@
 <!-- HTML padre -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <app-navbar></app-navbar>
 
   <section class="section-2" id="">
-  <!-- <div class="sec_carousel"> -->
+    <!-- <div class="sec_carousel"> -->
     <h1>Ellos confían en nosotros</h1>
     <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="multiSlideConfig" touch-move="true">
       <div ngxSlickItem *ngFor="let image of multiSlideImages">
         <img width="100%" height="500px" [src]="image?.img" alt="img" class="mx-auto">
       </div>
     </ngx-slick-carousel>
-  <!-- </div> -->
+    <!-- </div> -->
   </section>
 
   <section class="section-3" id="soluciones">
@@ -51,8 +53,8 @@
     </div>
     <div class="talleres__texto">
 
-        <h2>¿Necesitas reforzar tu equipo?</h2>
-        <p>Pregunta por nuestros talleres</p>
+      <h2>¿Necesitas reforzar tu equipo?</h2>
+      <p>Pregunta por nuestros talleres</p>
 
       <div class="taller__txt1">
         <p> > Analista de Business Intelligence</p>
@@ -60,7 +62,7 @@
         <p> > Herramientas Digitales</p>
       </div>
 
-        <button type="button" class="btn btn-outline-success">Contáctanos aquí</button>
+      <button type="button" class="btn btn-outline-success">Contáctanos aquí</button>
 
     </div>
 
@@ -93,11 +95,12 @@
   <section class="section-6">
     <div class="bi__texto">
       <h2>BI Starter Kit</h2>
-      <p>Hemos desarrollado el kit más completo que contiene tips y buenas prácticas para que inicies en Business Intelligence.</p>
+      <p>Hemos desarrollado el kit más completo que contiene tips y buenas prácticas para que inicies en Business
+        Intelligence.</p>
     </div>
     <div class="bi__texto-2">
       <div class="bi__texto_izquierda">
-        <div class="contenido">  
+        <div class="contenido">
           <div class="txt__1">
             <h4>03 plantillas</h4>
             <p>Obtén 3 tipos de diseño para
@@ -106,7 +109,7 @@
           <img class="bi__img" src="./assets/0-square.svg" width="50" height="50">
         </div>
 
-        <div class="contenido">  
+        <div class="contenido">
           <div class="txt__1">
             <h4>05 reglas para diseñar </h4>
             <p>Conoce las reglas para diseñar
@@ -114,8 +117,8 @@
           </div>
           <!-- <img class="bi__img" src="./assets/0-square.svg" width="50" height="50"> -->
         </div>
-        
-        <div class="contenido">  
+
+        <div class="contenido">
           <div class="txt__1">
             <h4>Elige gráficos correctos </h4>
             <p>Una guía para elegir la visualización correcta según tu indicador (KPI).</p>
@@ -131,15 +134,15 @@
         <img src="./assets/bi-starter-kit.webp">
       </div>
       <div class="bi__texto_derecha">
-        <div class="txt__1">  
+        <div class="txt__1">
           <h4>Conceptos claves de BI</h4>
           <p>Aprende los conceptos claves de Business Intelligence</p>
         </div>
-        <div class="txt__1">  
+        <div class="txt__1">
           <h4>Laboratorios</h4>
           <p>Practica con archivos de Excel conectados a Power BI</p>
         </div>
-        <div class="txt__1">  
+        <div class="txt__1">
           <h4>Tips y buenas prácticas</h4>
           <p>Competencias, transformación de datos, dark data y mucho más... </p>
         </div>
@@ -158,68 +161,167 @@
 
     <div class="metodologia-2">
 
-        <div class="metodologia__txt">
-          
-            <div class="mtd__estructura">
-              <div class="mtd__container">
-                <div class="mtd_icono">
-                  <img src="/assets/send.svg" width="32px" height="32px">
-                </div>
-                <div class="mtd__txt">
-                  <h4>1. Plan y Diseño</h4>
-                  <p>Diseño de bocetos, revisión de fuentes de datos y definición de métricas de negocio. </p>
-                </div>
-              </div> <!-- Fin del div mtd__container -->
+      <div class="metodologia__txt">
 
-              <div class="mtd__container">
-                <div class="mtd__txt">
-                  <h4>2. Gobierno de Power BI</h4>
-                  <p> Definición de políticas, buenas prácticas y revisión de notificaciones de auditoría.</p>
-                </div>
-                <div class="mtd_icono">
-                  <img src="/assets/send.svg" width="32px" height="32px">
-                </div>
-              </div> <!-- Fin del div mtd__container -->
+        <div class="mtd__estructura">
+          <div class="mtd__container">
+            <div class="mtd_icono">
+              <img src="/assets/send.svg" width="32px" height="32px">
+            </div>
+            <div class="mtd__txt">
+              <h4>1. Plan y Diseño</h4>
+              <p>Diseño de bocetos, revisión de fuentes de datos y definición de métricas de negocio. </p>
+            </div>
+          </div> <!-- Fin del div mtd__container -->
 
-              <div class="mtd__container">
-                <div class="mtd_icono">
-                  <img src="/assets/send.svg" width="32px" height="32px">
-                </div>
-                <div class="mtd__txt">
-                  <h4>3. Construcción</h4>
-                  <p> Modelo de datos, programación de métricas y diseño de las visualizaciones. </p>
-                </div>
-              </div> <!-- Fin del div mtd__container -->
+          <div class="mtd__container">
+            <div class="mtd__txt">
+              <h4>2. Gobierno de Power BI</h4>
+              <p> Definición de políticas, buenas prácticas y revisión de notificaciones de auditoría.</p>
+            </div>
+            <div class="mtd_icono">
+              <img src="/assets/send.svg" width="32px" height="32px">
+            </div>
+          </div> <!-- Fin del div mtd__container -->
 
-              <div class="mtd__container">
-                <div class="mtd__txt">
-                  <h4>4. Despliegue</h4>
-                  <p> Marcha blanca, capacitaciones y realización de mejoras.</p>
-                </div>
-                <div class="mtd_icono">
-                  <img src="/assets/send.svg" width="32px" height="32px">
-                </div>
-              </div> <!-- Fin del div mtd__container -->
+          <div class="mtd__container">
+            <div class="mtd_icono">
+              <img src="/assets/send.svg" width="32px" height="32px">
+            </div>
+            <div class="mtd__txt">
+              <h4>3. Construcción</h4>
+              <p> Modelo de datos, programación de métricas y diseño de las visualizaciones. </p>
+            </div>
+          </div> <!-- Fin del div mtd__container -->
 
-            </div> <!-- Fin del div mtd__estructura -->
+          <div class="mtd__container">
+            <div class="mtd__txt">
+              <h4>4. Despliegue</h4>
+              <p> Marcha blanca, capacitaciones y realización de mejoras.</p>
+            </div>
+            <div class="mtd_icono">
+              <img src="/assets/send.svg" width="32px" height="32px">
+            </div>
+          </div> <!-- Fin del div mtd__container -->
+
+        </div> <!-- Fin del div mtd__estructura -->
 
 
-        </div> <!-- Fin del div metodologia__txt -->
+      </div> <!-- Fin del div metodologia__txt -->
 
-        <div class="mtd__imagen">
+      <div class="mtd__imagen">
 
-          <h2>Proyecto: Geografías en Conflicto</h2>
-          <p>Geoportal institucional que pretende ayudar a eliminar las brechas existentes en el acceso libre a información en organizaciones de la sociedad civil.</p>
-          <button type="button" class="btn btn-outline-primary">Mira el dashboard completo aquí</button>
-          <img src="./assets/dashboard-02-1024x574.webp" width="600px" height="350px">
-        </div>
+        <h2>Proyecto: Geografías en Conflicto</h2>
+        <p>Geoportal institucional que pretende ayudar a eliminar las brechas existentes en el acceso libre a
+          información en organizaciones de la sociedad civil.</p>
+        <button type="button" class="btn btn-outline-primary">Mira el dashboard completo aquí</button>
+        <img src="./assets/dashboard-02-1024x574.webp" width="600px" height="350px">
+      </div>
     </div> <!-- Fin del div metodologia__2 -->
   </section>
 
   <section class="section-8">
-    
+    <div class="sc8__container">
+      <div class="sc8__txt">
+        <h2>Testimonios <br> de nuestros clientes</h2>
+        <p>Ellos ya están llevando su empresa al siguiente nivel. </p>
+      </div>
+      <div class="sc8__slider">
+        <h2>Testimonios <br> de nuestros clientes</h2>
+        <p>Ellos ya están llevando su empresa al siguiente nivel. </p>
+      </div>
+    </div> <!-- Fin del div sc8__container-->
   </section>
 
+  <section class="section-9" id="contactanos">
+    <div class="sc9__container">
+      <div class="sc9__contactanos">
+          <div class="contacto__txt">
+              <h2>Contáctanos</h2>
+              <p>Empecemos tu transformación digital. </p>
+              <hr>
+          </div>
+          <div class="contacto__redes">
+              <div class="sc9__redes">
+
+                <div class="redes__icono"> 
+                    <img src="/assets/send.svg" width="32px" height="32px">
+                </div>
+                <div class="redes__info">
+                    <h4>Correo electrónico</h4>
+                    <p>infodigito.pe </p>
+                </div>
+
+              </div>
+
+
+              <div class="sc9__redes">
+                <div class="redes__icono"> 
+                  <img src="/assets/send.svg" width="32px" height="32px">
+                </div>
+                <div class="redes__info">
+                    <h4>WhatsApp</h4>
+                    <p>+51 987654321 </p>
+                </div>
+              </div>
+
+              <div class="sc9__redes">
+                <div class="redes__icono"> 
+                  <img src="/assets/send.svg" width="32px" height="32px">
+                </div>
+                <div class="redes__info">
+                    <h4>Ubicación</h4>
+                    <p>Av. Andrés Aramburú 166 - Miraflores, Lima - Perú </p>
+                </div>
+              </div>
+
+              <div class="sc9__map">
+                <img src="./assets/map.webp" width="600px" height="250px">
+              </div>
+              
+          </div> <!-- Fin contacto__redes-->
+      </div>
+      <div class="sc9__form">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+            </label>
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Example multiple select</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button>Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div> <!-- Fin del div sc9__container-->
+  </section>
+
+  <app-footer></app-footer>
 
 </body>
+
 </html>

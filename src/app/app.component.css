@@ -348,3 +348,127 @@
 }
 
 /** Fin - Section 7 **/
+
+/** Section 8 **/
+
+.section-8 {
+  background: linear-gradient(to right, #20214f, #3F78CC);
+  height: 50vh;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc8__container {
+  background: red;
+  width: 100%;
+  height: 70%;
+  margin: 0 auto;
+  gap: 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sc8__txt {
+  background: green;
+  text-align: left;
+  padding-right: 3.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc8__txt h2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.sc8__txt p {
+  color: #fff;
+  font-size: large;
+}
+
+.sc8__slider {
+  background: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc8__slider h2 {
+  font-weight: bold;
+}
+
+/** Testimonial Slider **/
+/** Fin- Testimonial Slider **/
+
+
+/** Fin - Section 8 **/
+
+/** Section 9 **/
+
+.section-9 {
+  background: f4f4f4;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sc9__container {
+  background: red;
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  gap: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sc9__contactanos {
+  background: greenyellow;
+  width: 40%;
+  padding: 4em;
+}
+
+.sc9__redes {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  background: yellow;
+}
+
+.contacto__txt {
+  text-align: left;
+  background: blueviolet;
+}
+
+.contacto__txt h2 {
+  font-weight: bold;
+}
+
+.contacto__redes {
+  background: orange;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.redes__info h4 {
+  font-weight: bold;
+}
+
+.sc9__map {
+  align-self: center;
+}
+
+.sc9__form {
+  background: aquamarine;
+  width: 40%;
+  padding: 5em;
+}
+
+/** Fin - Section 9 **/
