@@ -121,7 +121,7 @@
 
 /** Section 4 **/
 .section-4 {
-  height: 100vh;
+  height: 90vh;
   background-color: #20214f;
   display: flex;
   flex-direction: row;
@@ -129,6 +129,13 @@
   align-items: center;
   align-content: center;
   gap: 3em;
+}
+
+.sc4__talleres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
 }
 
 .talleres__imagen {
@@ -158,6 +165,12 @@
   gap: 1.5em;
 }
 
+.section-4 #btn {
+  width: 12em;
+  align-self: center;
+}
+
+
 /* Animación de texto */
 .section-4 p, h2, button {
   animation: mover-abajo-arriba 2s 1;
@@ -182,22 +195,25 @@
 .section-5 {
   background: linear-gradient(to bottom, #20214f 50%, #fff 50%);
   height: 80vh;
-  padding: 60px;
+  /* padding: 60px; */
   padding-left: 60px;
   position: static;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .section-5 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 30%;
-  height: 70%;
+  width: 28%;
+  height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+  padding: 1.5em;
+  gap: 0.5em;
 }
 
 .section-5 .card:hover {
@@ -207,6 +223,7 @@
 .section-5 .container {
   flex-grow: 1;
   flex-shrink: 1;
+  padding: 0 5em;
 }
 
 .section-5 h2 {
@@ -216,12 +233,17 @@
   text-align: center;
 }
 
+.section-5 h4 {
+  color: #20214f;
+  font-weight: bold;
+}
+
 /** Fin - Section 5 **/
 
 /** Section 6 **/
 
 .section-6 {
-  height: 100vh;
+  height: 95vh;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -235,8 +257,17 @@
   text-align: center;
 }
 
+.bi__texto h2 {
+  font-weight: bold;
+}
+
 .bi__texto p {
-  margin: 0 32%;
+  margin: 0;
+}
+
+.bi__texto #color_txt {
+  font-weight: bold;
+  color: #20214f;
 }
 
 .txt__1 {
@@ -246,8 +277,15 @@
 .contenido {
   display: flex;
   flex-direction: row;
-  gap: 1.5em;
-  padding: 2em;
+  gap: 1.2em;
+  justify-content: end;
+}
+
+.contenido-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+  justify-content: start;
 }
 
 .contenido p {
@@ -255,15 +293,11 @@
   vertical-align: top;
 }
 
-/* .contenido img {
-  vertical-align: bottom;
-} */
-
 .bi__texto_izquierda {
   text-align: right;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .bi__texto_izquierda h4 {
@@ -272,11 +306,11 @@
 
 .bi__texto-2 {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 0.5em;
 }
 
 .bi__texto-2 h4 {
@@ -292,15 +326,21 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
+  margin-left: 1em;
 }
 
 .bi__texto_derecha h4 {
   font-weight: bold;
 }
 
+.bi__img {
+  align-self: flex-start;
+  margin-top: 1em;
+}
+
 .bi__imagen {
-  align-items: start;
+  padding-bottom: 5em;
 }
 
 .bi__btn {
@@ -336,6 +376,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 4em;
   /* background: green; */
 }
 
@@ -343,7 +384,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
+  gap: 3em;
   height: 100%;
   /* background: aqua; */
 }
@@ -356,31 +397,37 @@
   /* background: cornflowerblue; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: right;
+  gap: 5em;
 }
 
 .mtd__imagen {
-  /* background: purple; */
   display: flex;
   flex-direction: column;
   justify-content: left;
   text-align: center;
-  gap: 3em;
+  gap: 0.5em;
 }
 
 .mtd__imagen p {
-  width: 70%;
   /* background: yellow; */
   align-self: center;
+  margin-bottom: 2em;
 }
 
 .mtd__imagen img {
   align-self: center;
 }
 
+.mtd__imagen #color_txt {
+  color: #20214f;
+  font-weight: bold;
+}
+
 .mtd__imagen button {
-  width: 30%;
+  width: 60%;
   align-self: center;
+  margin-bottom: 1.5em;
 }
 
 /** Fin - Section 7 **/
@@ -397,7 +444,7 @@
 }
 
 .sc8__container {
-  background: red;
+  /* background: red; */
   width: 100%;
   height: 70%;
   margin: 0 auto;
@@ -408,7 +455,7 @@
 }
 
 .sc8__txt {
-  background: green;
+  /* background: green; */
   text-align: left;
   padding-right: 3.5em;
   display: flex;
@@ -427,7 +474,7 @@
 }
 
 .sc8__slider {
-  background: aqua;
+  /* background: aqua; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -454,7 +501,7 @@
 }
 
 .sc9__container {
-  background: red;
+  /* background: red; */
   width: 100%;
   height: 80%;
   margin: 0 auto;
@@ -465,35 +512,47 @@
 }
 
 .sc9__contactanos {
-  background: greenyellow;
-  width: 40%;
-  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: greenyellow; */
+  /* padding: 4em; */
 }
 
 .sc9__redes {
   display: flex;
   flex-direction: row;
   gap: 1.5em;
-  background: yellow;
+  /* background: yellow; */
 }
 
 .contacto__txt {
   text-align: left;
-  background: blueviolet;
+  /* background: blueviolet; */
 }
 
 .contacto__txt h2 {
   font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.contacto__txt #transformacion_p {
+  margin-bottom: 2em;
 }
 
 .contacto__redes {
-  background: orange;
+  /* background: orange; */
   display: flex;
   flex-direction: column;
   gap: 1em;
+  margin-top: 1.8em;
 }
 
-.redes__info h4 {
+.redes__info p {
+  margin: 0;
+}
+
+.redes__info h5 {
   font-weight: bold;
 }
 
@@ -502,9 +561,48 @@
 }
 
 .sc9__form {
-  background: aquamarine;
-  width: 40%;
-  padding: 5em;
+  /* background: aquamarine; */
+  padding: 3.5em 0 8em 0;
+}
+
+#sc9__text::placeholder {
+  color: #9e9e9e;
+}
+
+#sc9__text-2::placeholder {
+  color: #9e9e9e;
+}
+
+#sc9__text-3::placeholder {
+  color: #9e9e9e;
+}
+
+.sc9__form #sc9__text {
+  background-color: #eeeeee;
+  width: 16em;
+  height: 3em;
+  margin-bottom: 2.5em;
+}
+
+.sc9__form #sc9__text-2 {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 3em;
+  margin-bottom: 2.8em;
+}
+
+.sc9__form #sc9__text-3 {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 8em;
+  margin-bottom: 2.5em;
+}
+
+.sc9__form #btn__enviar {
+  width: 100%;
+  height: 3.5em;
+  background-color: #2196f3;
+  border: none;
 }
 
 /** Fin - Section 9 **/
