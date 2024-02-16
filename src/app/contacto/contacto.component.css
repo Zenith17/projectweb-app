@@ -1,0 +1,120 @@
+/** Section 9 **/
+
+.section-9 {
+    background: #20214f;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sc9__container {
+    /* background: red; */
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .sc9__contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: greenyellow; */
+    /* padding: 4em; */
+  }
+  
+  .sc9__redes {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    /* background: yellow; */
+  }
+  
+  .contacto__txt {
+    text-align: left;
+    /* background: blueviolet; */
+  }
+  
+  .contacto__txt h2 {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    color: #fff;
+  }
+  
+  .contacto__txt #transformacion_p {
+    margin-bottom: 2em;
+    color: #fff;
+  }
+  
+  .contacto__redes {
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1.8em;
+  }
+  
+  .redes__info p {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .redes__info h5 {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .sc9__map {
+    align-self: center;
+  }
+  
+  .sc9__form {
+    /* background: aquamarine; */
+    padding: 3.5em 0 8em 0;
+  }
+  
+  #sc9__text::placeholder {
+    color: #9e9e9e;
+  }
+  
+  #sc9__text-2::placeholder {
+    color: #9e9e9e;
+  }
+  
+  #sc9__text-3::placeholder {
+    color: #9e9e9e;
+  }
+  
+  .sc9__form #sc9__text {
+    background-color: #eeeeee;
+    width: 16em;
+    height: 3em;
+    margin-bottom: 2.5em;
+  }
+  
+  .sc9__form #sc9__text-2 {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 2.8em;
+  }
+  
+  .sc9__form #sc9__text-3 {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 8em;
+    margin-bottom: 2.5em;
+  }
+  
+  .sc9__form #btn__enviar {
+    width: 100%;
+    height: 3.5em;
+    background-color: #2196f3;
+    border: none;
+  }
+
+  /** Fin - Section 9 **/

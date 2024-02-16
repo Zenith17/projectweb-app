@@ -1,10 +1,11 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { FooterComponent } from '../footer/footer.component';
+import { ContactoComponent } from '../contacto/contacto.component';
 
 @Component({
   selector: 'app-nosotros',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, ContactoComponent],
   templateUrl: './nosotros.component.html',
   styleUrl: './nosotros.component.css'
 })

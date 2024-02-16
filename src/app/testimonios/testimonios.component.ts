@@ -1,9 +1,11 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { ContactoComponent } from '../contacto/contacto.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-testimonios',
   standalone: true,
-  imports: [],
+  imports: [ContactoComponent, FooterComponent],
   templateUrl: './testimonios.component.html',
   styleUrl: './testimonios.component.css'
 })
