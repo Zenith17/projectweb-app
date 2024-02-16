@@ -5,6 +5,9 @@
     background-size: cover;
     height: 100vh;
     background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 header {
@@ -12,10 +15,13 @@ header {
     padding: 30px;
     align-items: center;
     position: fixed;
+    justify-content: center;
     top: 0;
     left: 0;
     width: 100%;
     transition: 500ms;
+    gap: 15em;
+    margin: 0;
 }
 
 nav {
@@ -29,10 +35,10 @@ nav a {
     text-decoration: none;
     font-family: sans-serif;
     color: #fff;
-    text-transform: uppercase;
     border-bottom: 3px solid transparent;
-    padding: 10px 1px;
+    padding: 10px 20px;
     transition: 200ms;
+    font-weight: bold;
 }
 
 .active {
@@ -52,8 +58,8 @@ nav a:hover {
 }
 
 .bgc {
-    background: #eee;
-    padding: 10px;
+    background: #fff;
+    padding: 7px;
 }
 
 .bgc .logo {

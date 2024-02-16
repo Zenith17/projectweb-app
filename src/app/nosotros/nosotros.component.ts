@@ -1,14 +1,14 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-nosotros',
   standalone: true,
-  imports: [],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  imports: [FooterComponent],
+  templateUrl: './nosotros.component.html',
+  styleUrl: './nosotros.component.css'
 })
-export class NavbarComponent implements OnInit {
+export class NosotrosComponent implements OnInit {
 
   ngOnInit() {}
 

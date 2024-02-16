@@ -5,18 +5,20 @@ import { NavbarComponent } from './navbar/navbar.component';
 import * as $ from 'jquery';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { FooterComponent } from './footer/footer.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { TestimoniosComponent } from './testimonios/testimonios.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, SlickCarouselModule, FooterComponent],
+  imports: [CommonModule, RouterOutlet, NavbarComponent, SlickCarouselModule, FooterComponent, NosotrosComponent, TestimoniosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit { 
-  title = 'projectweb-app';
+    title = 'projectweb-app';
 
-  multiSlideConfig = {
+    multiSlideConfig = {
     slidesToShow: 5,
     slidesToScroll: 3,
     infinite: true,

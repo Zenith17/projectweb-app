@@ -1,14 +1,13 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import * as $ from 'jquery';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-testimonios',
   standalone: true,
   imports: [],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  templateUrl: './testimonios.component.html',
+  styleUrl: './testimonios.component.css'
 })
-export class NavbarComponent implements OnInit {
+export class TestimoniosComponent implements OnInit{
 
   ngOnInit() {}
 
