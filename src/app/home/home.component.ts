@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AppComponent } from '../app.component';
 import { RouterOutlet } from '@angular/router';
@@ -12,7 +12,8 @@ import { FooterComponent } from '../footer/footer.component';
   standalone: true,
   imports: [CommonModule, AppComponent, RouterOutlet, NavbarComponent, SlickCarouselModule, FooterComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomeComponent implements OnInit {
 
@@ -22,15 +23,15 @@ export class HomeComponent implements OnInit {
     infinite: true,
   }
 
-multiSlideImages = [
-  {img: "./assets/c-logo-pizza-hut.webp"},
-  {img: "./assets/ieduca.webp"},
-  {img: "./assets/logo2-ATSA.webp"},
-  {img: "./assets/mibanco.webp"},
-  {img: "./assets/c-logo-marca-lima.webp"},
-  {img: "./assets/c-logo-kfc.webp"},
-  {img: "./assets/c-logo-idecopi.webp"}
-]
+  multiSlideImages = [
+    {img: "./assets/c-logo-pizza-hut.webp"},
+    {img: "./assets/ieduca.webp"},
+    {img: "./assets/logo2-ATSA.webp"},
+    {img: "./assets/mibanco.webp"},
+    {img: "./assets/c-logo-marca-lima.webp"},
+    {img: "./assets/c-logo-kfc.webp"},
+    {img: "./assets/c-logo-idecopi.webp"}
+  ]
 
   constructor() { }
 

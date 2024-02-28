@@ -19,10 +19,10 @@ export class NavbarComponent implements OnInit {
       jQuery(window).on('scroll', function () {
           if (jQuery(window).scrollTop()) {
               jQuery("header").addClass("bgc");
-              jQuery("#logo_nav").attr("src","./assets/logo-digito-azul.svg");
+              jQuery("#logo_nav").attr("src","./assets/logo-negro-PNG.png");
           } else {
               jQuery("header").removeClass("bgc");
-              jQuery("#logo_nav").attr("src","./assets/logo-digito-blanco.svg");
+              jQuery("#logo_nav").attr("src","./assets/logo-blanco-PNG.png");
           }
       });
     });

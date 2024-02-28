@@ -1,7 +1,6 @@
 .section-1 {
     background: #0cb7f2;
     /* background: linear-gradient(to bottom, #0cb7f2 50%, #20214f 50%); */
-    width: 100%;
     background-size: cover;
     height: 10vh;
     background-position: center;
@@ -51,7 +50,7 @@ nav a:hover {
     flex: 1;
     font-family: 35px;
     font-family: sans-serif;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     color: #fff;
 }
 
@@ -266,12 +265,6 @@ nav a:hover {
   
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-    /* padding: 2px 16px; */
-    /* flex-grow: 0;
-    flex-shrink: 1; */
 }
 
 .container #sc5__card p {

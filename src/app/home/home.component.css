@@ -4,6 +4,7 @@
     height: 40vh;
     /* padding: 60px;
     padding-left: 60px; */
+    position: static;
 }
 
 .section-2 h2 {
@@ -32,7 +33,6 @@
   padding: 60px 400px;
   display: flex;
   flex-direction: column;
-  position: sticky;
 }
 
 .section-2 img {
@@ -51,7 +51,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* position: static; */
 }
 
 .section-3 h2 {
@@ -95,7 +94,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 1em 1em;
-  position: relative;
+  position: static;
   top: 0;
   transition: top ease 0.5s;
 }
@@ -119,318 +118,6 @@
 
 /** Fin- Section 3 **/
 
-/** Section 4 **/
-.section-4 {
-  height: 90vh;
-  background-color: #20214f;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  gap: 3em;
-}
-
-.sc4__talleres {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2em;
-}
-
-.talleres__imagen {
-  justify-content: start;
-}
-
-.section-4 img {
-  width: 470px;
-  height: auto;
-  border-radius: 5%;
-}
-
-.section-4 p {
-  color: #fff;
-}
-
-.section-4 h2 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 2.5em;
-}
-
-.talleres__texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.5em;
-}
-
-.section-4 #btn {
-  width: 12em;
-  align-self: center;
-}
-
-
-/* Animación de texto */
-.section-4 p, h2, button {
-  animation: mover-abajo-arriba 2s 1;
-  animation-fill-mode: forwards;
-}
-@keyframes mover-abajo-arriba {
-  from {
-    transform: translateY(100px);
-  }
-  to {
-    transform: translateY(-7px);
-  }
-}
-
-
-/* Fin - Animación de texto */
-
-/** Fin - Section 4 **/
-
-/** Section 5 **/
-
-.section-5 {
-  background: linear-gradient(to bottom, #20214f 50%, #fff 50%);
-  height: 80vh;
-  /* padding: 60px; */
-  padding-left: 60px;
-  position: static;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.section-5 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 28%;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  padding: 1.5em;
-  gap: 0.5em;
-}
-
-.section-5 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.section-5 .container {
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 0 5em;
-}
-
-.section-5 h2 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 2.5em;
-  text-align: center;
-}
-
-.section-5 h4 {
-  color: #20214f;
-  font-weight: bold;
-}
-
-/** Fin - Section 5 **/
-
-/** Section 6 **/
-
-.section-6 {
-  height: 95vh;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bi__texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.bi__texto h2 {
-  font-weight: bold;
-}
-
-.bi__texto p {
-  margin: 0;
-}
-
-.bi__texto #color_txt {
-  font-weight: bold;
-  color: #20214f;
-}
-
-.txt__1 {
-  margin-bottom: 10%;
-}
-
-.contenido {
-  display: flex;
-  flex-direction: row;
-  gap: 1.2em;
-  justify-content: end;
-}
-
-.contenido-2 {
-  display: flex;
-  flex-direction: row;
-  gap: 1.2em;
-  justify-content: start;
-}
-
-.contenido p {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.bi__texto_izquierda {
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.bi__texto_izquierda h4 {
-  font-weight: bold;
-}
-
-.bi__texto-2 {
-  width: 100%;
-  margin-top: 3%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 0.5em;
-}
-
-.bi__texto-2 h4 {
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.bi__texto-2 h4:hover {
-  opacity: 1;
-}
-
-.bi__texto_derecha {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 1em;
-}
-
-.bi__texto_derecha h4 {
-  font-weight: bold;
-}
-
-.bi__img {
-  align-self: flex-start;
-  margin-top: 1em;
-}
-
-.bi__imagen {
-  padding-bottom: 5em;
-}
-
-.bi__btn {
-  width: 10%;
-  align-self: center;
-}
-/** Fin - Section 6 **/
-
-/** Section 7 **/
-
-.section-7 {
-  height: 100vh;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /* background: blue; */
-}
-
-.section-7 h2 {
-  font-weight: bold;
-}
-
-.metodologia {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  /* background: red; */
-}
-
-.metodologia-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 4em;
-  /* background: green; */
-}
-
-.mtd__estructura {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3em;
-  height: 100%;
-  /* background: aqua; */
-}
-
-.mtd__txt {
-  /* background: chocolate; */
-}
-
-.mtd__container {
-  /* background: cornflowerblue; */
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  gap: 5em;
-}
-
-.mtd__imagen {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  text-align: center;
-  gap: 0.5em;
-}
-
-.mtd__imagen p {
-  /* background: yellow; */
-  align-self: center;
-  margin-bottom: 2em;
-}
-
-.mtd__imagen img {
-  align-self: center;
-}
-
-.mtd__imagen #color_txt {
-  color: #20214f;
-  font-weight: bold;
-}
-
-.mtd__imagen button {
-  width: 60%;
-  align-self: center;
-  margin-bottom: 1.5em;
-}
-
-/** Fin - Section 7 **/
 
 /** Section 8 **/
 
@@ -485,6 +172,72 @@
 }
 
 /** Testimonial Slider **/
+
+swiper-container {
+  /* margin: 100px auto; */
+  width: 650px;
+  height: 400px;
+}
+
+swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slide__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5em;
+  padding: 5em 3em;
+}
+
+.slide__info img {
+  border-radius: 100%;
+  align-self: center;
+}
+
+swiper-slide:nth-child(1n) {
+}
+
+swiper-slide:nth-child(2n) {
+  /* background-color: rgb(0, 140, 255); */
+}
+
+swiper-slide:nth-child(3n) {
+  /* background-color: rgb(10, 184, 111); */
+}
+
+swiper-slide:nth-child(4n) {
+  /* background-color: rgb(211, 122, 7); */
+}
+
+swiper-slide:nth-child(5n) {
+  /* background-color: rgb(118, 163, 12); */
+}
+
+swiper-slide:nth-child(6n) {
+  /* background-color: rgb(180, 10, 47); */
+}
+
+swiper-slide:nth-child(7n) {
+  /* background-color: rgb(35, 99, 19); */
+}
+
+swiper-slide:nth-child(8n) {
+  /* background-color: rgb(0, 68, 255); */
+}
+
+swiper-slide:nth-child(9n) {
+  /* background-color: rgb(218, 12, 218); */
+}
+
+
 /** Fin- Testimonial Slider **/
 
 
